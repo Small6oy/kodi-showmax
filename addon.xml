@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.showmax"
+       name="ShowMax"
+       version="1.0.0" 
+       provider-name="Godwin Ndlovu">
+  <requires>  
+  <import addon="script.module.requests" />
+  <import addon="script.module.addon.common" />
+  <import addon="xbmc.python" version="2.1.0"/>
+  <import addon="script.module.xbmcswift" version="0.2.0" />
+	<import addon="script.module.metahandler" version="2.5.1"/>
+  <import addon="script.module.simplejson" version="2.0.10" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">This is ShowMax</summary>
+    <description lang="en">ShowMax is an internet-based subscription video on demand service supplying an extensive catalogue of TV shows and movies. By leveraging relationships with major production studios from across the globe, ShowMax delivers both world-class international content as well as the best of specialised local content. ShowMax is accessible across a wide range of devices from smart TVs and computers to smartphones and tablets</description>
+    <platform>all</platform>
+ <language>en</language>
+ <email>gggndlovu@gmail.com</email>
+  </extension>
+</addon>
+
